@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from torch.utils.data.dataset import Dataset
 
-label_idx = {'Nothing-in-hand': 0, 'One-pair': 1, 'Two-pairs': 2, 'Three-of-akind': 3, 'Straight': 4, 'Flush': 5, 'Full-house': 6, 'Four-of-a-kind': 7, 'Straight-flush': 8, 'Royal-flush': 9}
+label_idx = {'loss': 1, 'win': 2, }
 
 
 class IrisDataset(Dataset):

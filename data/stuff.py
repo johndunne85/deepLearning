@@ -1,11 +1,11 @@
 import re
 
 
-infile = open('iris.data.txt','rt')
+infile = open('sand.txt','rt')
 outfile= open('the_answer.txt','wt')
 
 for line in infile:
-    if re.search('Three-of-akind$', line):
+    if re.search('loss$', line):
         print(line.rstrip(), file=outfile)
 
 outfile.close()

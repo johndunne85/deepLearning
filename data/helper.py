@@ -28,11 +28,6 @@ def test_network(net, trainloader):
     return True
 
 
-
-
-
-
-
 def view_classify( ps, version="MNIST"):
     ''' Function for viewing an image and it's predicted classes.
     '''
